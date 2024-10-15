@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Architectural Firm</title>
+        <link rel="stylesheet" href="AF_Website.css">
+        <script src="AF_Website.js"></script>
+    </head>
+    <body>
+        <div>
+            <div>Header</div>
+            <div>Sub-Heading</div>
+        </div>
+        <div>
+        <div class="all4divs client-form">
+          <?php include 'AF_Website.php'; ?>
+          <form action="AF_Website.php" method="post">
+            <table>
+                <tr rowspan="2">
+                  <th><h2>Add a Client</h2></th>
+                </tr>
+                <tr>
+                  <td><label>Company Name</label></td>
+                  <td><input type="text" id="companyName" placeholder="Enter Company Name" value=""></td>
+                </tr>
+                <tr>
+                  <td><label>First Name</label></td>
+                  <td><input type="text" id="firstName" placeholder="Enter First Name" value=""></td>
+                </tr>
+                <tr>
+                  <td><label>Last Name</label></td>
+                  <td><input type="email" id="lastName" placeholder="Enter Last Name" value=""></td>
+                </tr>
+                <tr>
+                  <td><label>Phone Number</label></td>
+                  <td><input type="number" id="phoneNumber" placeholder="Enter contact details" value=""></td>
+                </tr>
+                <tr>
+                  <td><label>Email Address</label></td>
+                  <td><input type="email" id="emailAddress" placeholder="Enter Email" value=""></td>
+                </tr>
+                <tr>
+                  <td><input type="button" onclick="putToClientList()" value="Submit"></td>
+                  <td><input type="reset" value="Clear"></td>
+                </tr>
+              </table>
+            </form>
+        </div>
+        <div class="all4divs client-list">
+            <table id="clientList">
+                <tr rowspan="5">
+                    <th><h2>Client List</h2></th>
+                </tr>
+                <tr>
+                  <td><p>Company Name</p></td>
+                  <td><input id="companyName1" value=""></input></td>
+                  <td><p>First Name</p></td>
+                  <td><p></p></td>
+                  <td><p>Email Name</p></td>
+                  <td><p></p></td>
+                  <td><p>Phone Number</p></td>
+                  <td><p></p></td>
+                  <td><p>Email Name</p></td>
+                  <td><p></p></td>
+                  <td><button>Modify</button></td>
+                  <td><button>Delete</button></td>
+                </tr>
+              </table>
+        </div>
+    </div>
+    <div>
+        <div class="all4divs new-meeting">
+            <table>
+                <tr rowspan="2">
+                  <th><h2>New Meeting</h2></th>
+                </tr>
+                <tr>
+                  <td><label>Meeting Title</label></td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td><label>Meeting Description</label></td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td><label>Attendees</label></td>
+                  <td><input type="email"></td>
+                </tr>
+                <tr>
+                  <td><label>Start Time</label></td>
+                  <td><input type="datetime"></td>
+                </tr>
+                <tr>
+                  <td><label>End Time</label></td>
+                  <td><input type="datetime"></td>
+                </tr>
+                <tr>
+                  <td><button>Submit</button></td>
+                  <td><button>Clear</button></td>
+                </tr>
+              </table>
+        </div>
+        <div class="all4divs calendar-view">
+            <h1 class="top_heading">Calendar view</h1>
+        </div>
+      </div>
+<div>
+      <form action="AF_Website.php" method="post">
+        <table>
+            <tr rowspan="2">
+              <th><h2>Add a Client</h2></th>
+            </tr>
+            <tr>
+              <td><label>Company Name</label></td>
+              <td><input type="text" id="companyName" placeholder="Enter Company Name" value=""></td>
+            </tr>
+            <tr>
+              <td><label>First Name</label></td>
+              <td><input type="text" id="firstName" placeholder="Enter First Name" value=""></td>
+            </tr>
+            <tr>
+              <td><label>Last Name</label></td>
+              <td><input type="text" id="lastName" placeholder="Enter Last Name" value=""></td>
+            </tr>
+            <tr>
+              <td><label>Phone Number</label></td>
+              <td><input type="number" id="phoneNumber" placeholder="Enter contact details" value=""></td>
+            </tr>
+            <tr>
+              <td><label>Email Address</label></td>
+              <td><input type="email" id="emailAddress" placeholder="Enter Email" value=""></td>
+            </tr>
+            <tr>
+              <td><button type="submit">Submit</button></td>
+              <td><input type="reset" value="Clear"></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+background: linear-gradient(90deg, #ebeaee, #ffffff 100%);
+margin: 5px;
+}
+
+.client-list {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    min-height: 15rem;
+    vertical-align:top;
+    }
+
+.client-form {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    min-height: 15rem;
+    min-width: 20rem;
+    background-image: url(/media/form_background_image.jpeg)
+    }
+
+.calendar-view {
+    display: inline-block;
+    vertical-align:top;
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    }
+
+.new-meeting {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    min-width: 20rem;
+    }
+    
+.all4divs {
+    margin: 5px 5px 5px 5px;
+    background-color: #515d8a;
+    color: #f8f9ff;
+}
+.top_heading {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+button {
+    background-color: #007bff5f; /* Blue background */
+    border: none;
+    border-radius: 50px; /* Rounded corners */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+  }
+  
+  
